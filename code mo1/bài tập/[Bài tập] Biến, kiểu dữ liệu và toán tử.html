@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baitap1</title>
+</head>
+<body>
+<p>Physic</p>
+<input type="text"name="number"id="ly"><br>
+<p>Chemistry</p>
+<input type="text"name="number"id="hoa"><br>
+<p>Biology</p>
+<input type="text"name="number"id="sinh"><br>
+<button onclick="diemtrungbinh()">diem trung binh</button><br>
+
+<h2>bai 2</h2>
+<p>0C(Celsíus)</p>
+<input type="text"name="Celsius"id="0C">
+<button onclick="doF">Độ F</button><br>
+<h3>bai 3</h3>
+<p>Bán kính hình tròn</p>
+<input type="text"name="radius" id="r"><br>
+<button onclick="area">Diện tích </button> <br>
+<h4>bai4</h4>
+<p>Bán kính hình tròn</p>
+<input type="text"name="radius" id="r"><br>
+<button onclick="radius">Chu vi </button> <br>
+
+<script>
+    function diemtrungbinh() {
+        var 1=parseInt(document.getElementById(ly).value);
+        var 2=parseInt(document.getElementById(hoa).value);
+        var 3=parseInt(document.getElementById(sinh).value);
+        var result=(var1+var2+var3)/3;
+        alert(result);}
+ function diemtong() {
+     var 4=parseInt(document.getElementById(ly).value);
+     var 5=parseInt(document.getElementById(hoa).value);
+     var 6=parseInt(document.getElementById(sinh).value);
+     var result1=(var4+var5+var6);
+     alert(result1);
+ }
+ function doF() {
+var 7=parseInt(document.getElementById(0C).value);
+var result2=(var7*1.8+32)
+ }
+ function area() {
+var8=parseInt(document.getElementById(r))
+     var result3=(var8^2*3.14)
+     alert(result3)
+ }
+ function radius() {
+ var9=parseInt(document.getElementById(r))
+     var result4=(2r*3,14)
+     alert(result4)
+ }
+</script>
+</body>
+</html>

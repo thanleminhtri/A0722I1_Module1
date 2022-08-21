@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 7</title>
+</head>
+<body>
+ax^2+bx+c=0 (a#0)
+<script>
+    let a=parseInt(prompt("nhap a"));
+    let b=parseInt(prompt("nhap b"));
+    let c=parseInt(prompt("nhap c"));
+    let d=b*b-4*a*c;
+    let delta= Math.sqrt(d)
+    if (delta<0){
+        alert("pt vo nghiem");
+    }else if(delta=0){
+        alert("pt co  nghiem kep la -b/2a");
+    }else {
+        alert("pt co 2 nghiem la (-b+-delta)/2a");
+    }
+
+
+
+</script>
+</body>
+</html>

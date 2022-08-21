@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baitap</title>
+</head>
+<body>
+<form action="#">
+    <p>Amount</p>
+    <input type="number" id="amount">
+    <p>From Currency</p>
+    <select id="moneyexchange" >
+        <option value="USD" >USD</option>
+        <option value="VND" >VND</option>
+    </select>
+    <p>To Currency</p>
+    <select id="moneychange">
+        <option value="USD">USD</option>
+        <option value="VND">VNĐ</option>
+    </select>
+    <button type="button" onclick="changeMoney()">Convert</button>
+    <script>
+        function changeMoney() {
+            let num1 = document.getElementById("amount").value;
+            let num2 = document.getElementById("moneychange").value;
+            let num3 = document.getElementById("moneyexchange").value;
+            if (num2==USD&&num3=VND){
+                alert("result=(num1)*23000");
+        }else if (num2==VND&&num3=USD){
+            alert("result=(num1)/23000")};
+        }else{
+            alert("result(num1=num3");
+        }
+    </script>
+    
+    
+</form>
+</body>
+</html>

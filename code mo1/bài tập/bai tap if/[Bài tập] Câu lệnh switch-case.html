@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body></body>
+<input type="number" id="thang">
+<input type="button" onclick="tinh" value="tính số ngày trong tháng">
+<script>
+  function tinh() {
+      let month =document.getElementById(thang);
+      switch (month) {
+              case 0:
+                  document.writeln("Tháng 1 có 31 ngày");
+                  break;
+              case 1:
+                  document.writeln("Tháng 2 có 28 hoặc 29 ngày");
+                  break;
+              case 2:
+                  document.writeln("Tháng 3 có 31 ngày");
+                  break;
+              case 3:
+                  document.writeln("Tháng 4 có 30 ngày");
+                  break;
+              case 4:
+                  document.writeln("Tháng 5 có 31 ngày");
+                  break;
+              case 5:
+                  document.writeln("Tháng 6 có 30 ngày");
+                  break;
+              case 6:
+                  document.writeln("Tháng 7 có 31 ngày");
+                  break;
+              case 7:
+                  document.writeln("Tháng 8 có 31 ngày");
+                  break;
+              case 8:
+                  document.writeln("Tháng 9 có 30 ngày");
+                  break;
+              case 9:
+                  document.writeln("Tháng 10 có 31 ngày");
+                  break;
+              case 10:
+                  document.writeln("Tháng 11 có 30 ngày");
+                  break;
+              case 11:
+                  document.writeln("Tháng 12 có 31 ngày");
+                  break;
+              default:
+                  document.writeln("số bạn nhập không đúng");
+
+      }
+      }
+</body>
+</html12>

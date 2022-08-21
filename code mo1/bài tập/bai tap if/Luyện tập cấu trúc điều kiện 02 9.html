@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 9</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt("nhap canh a"));
+    let b=parseInt(prompt("nhap canh b"));
+    let c=parseInt(prompt("nhap canh c"));
+    switch (a,b,c) {
+        case (a > 0 && b > 0 && c > 0):
+            alert(" a,b,c là 3 cạnh tam giác");
+            break;
+        case (a + b > c):
+            alert(" a,b,c là 3 cạnh tam giác");
+            break;
+        case (b + c > a):
+            alert(" a,b,c là 3 cạnh tam giác");
+            break;
+        case (a + c > b):
+            alert(" a,b,c là 3 cạnh tam giác");
+            break;
+        default:
+            alert(" a,b,c khong là 3 cạnh tam giác");
+    }
+
+</script>
+</body>
+</html>
