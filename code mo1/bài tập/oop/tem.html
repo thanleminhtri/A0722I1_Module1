@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>temputure</title>
+</head>
+<body>
+<script>
+    class Temputure{
+        constructor(tempu) {
+            this.tem=tempu;
+        }
+        displayKelvin(num1){
+            document.writeln("do Kelvin la" +this.tem+273.15);
+            document.writeln("<br>");
+        }
+        displayF(num2){
+            document.writeln("do F la" +(this.tem*1.8)+32);
+        }
+    }let temputure=new Temputure(prompt("nhap so do muon ktra"));
+    temputure.displayF();
+    temputure.displayKelvin();
+</script>
+</body>
+</html>

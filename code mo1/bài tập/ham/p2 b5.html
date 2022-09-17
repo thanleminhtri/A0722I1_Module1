@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    function checknumber(num1,num2,num3) {
+        let max=num1;
+        if(num1>num2 && num1>num3){
+            alert(+num1+ "la so lon nhat");
+        }else if (num2>num3){
+            alert(+num2+ "la so lon nhat");
+        }else {
+            alert(+num3+ "la so lon nhat");
+        }
+    }
+    let a=parseInt(prompt("nhap so 1"));
+    let b=parseInt(prompt("nhap so 2"));
+    let c=parseInt(prompt("nhap so 3"));
+   document.writeln(checknumber(a,b,c));
+</script>
+</body>
+</html>

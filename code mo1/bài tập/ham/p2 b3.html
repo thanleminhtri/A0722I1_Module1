@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai3</title>
+</head>
+<body>
+<script>
+    function factorial(num) {
+        let result = 1;
+        if (num > 1) {
+            for (let i = 1; i <= num; i++) {
+                result = result * i;
+            }
+            return result;
+        }
+        else {
+            alert("so nhap phia lon hon 1");
+
+        }
+    }
+    let a=parseInt(prompt("nhap so can tim"));
+    document.writeln(factorial(a))
+</script>
+</body>
+</html>

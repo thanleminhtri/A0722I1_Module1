@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 9</title>
+</head>
+<body>
+<script>
+    let arr=[];
+    var i;
+
+    let a=parseInt(prompt("nhap ky ty bat ki"));
+    for (i=0;i<5;i++){
+        arr[i]=parseInt(prompt("nhap mang ky tu"));
+    }
+    function checknumber(num) {
+        for (let j=0;j<arr.length;j++){
+            if (num===arr[i]){
+                alert(num+"xuat hien tai" +i);
+            }else {
+                alert("-1");
+            }
+        }
+    }
+    document.writeln(checknumber(a));
+</script>
+</body>
+</html>

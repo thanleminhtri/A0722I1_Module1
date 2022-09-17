@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hcn</title>
+</head>
+<body>
+<canvas id="myCanvas" style="border: 1px red solid" width="200" height="100"></canvas>
+<script>
+    class Rectangle{
+        constructor(weight,height) {
+            this.weight=weight;
+            this.height=height;
+
+        }
+        displayArea(){
+            document.writeln("dien tich hcn la" +this.weight*this.height);
+            document.writeln("<br>");
+
+        }
+        displayPerimeter(){
+            document.writeln("chu vi hcn la" +(this.weight+this.height)*2);
+
+        }
+    }
+    let Rectangle1=new Rectangle(prompt("nhap chieu dai"),prompt("nhap chieu cao"));
+    Rectangle1.displayArea();
+    Rectangle1.displayPerimeter();
+    function displayCanvas() {
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "blue";
+        ctx.fillRect(0, 0, this.weight, this.height);
+    }
+
+</script>
+</body>
+</html>
